@@ -1,6 +1,6 @@
 ---
 title: My First Blog
-date: 24, August, 2021
+date: August 5, 2021 1:24 PM
 ---
 
 # Welcome to my blog
