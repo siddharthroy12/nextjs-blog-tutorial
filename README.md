@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next + Netlify CMS Markdown Blog
 
-## Getting Started
+[![Netlify Status](https://api.netlify.com/api/v1/badges/71cc28eb-59f0-4e52-b667-273fc91c7683/deploy-status)](https://app.netlify.com/sites/next-blog-tutorial/deploys)
 
-First, run the development server:
+This is a lightweight Markdown Blog built using Next.js and Netlify CMS.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Clone and deploy this site in one click:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/siddharthroy12/nextjs-blog-tutorial)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Learn how to built this from this [tutorial]().
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Running it locally
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone this repo `git clone https://github.com/siddharthroy12/nextjs-blog-tutorial`
+2. Navigate to the directory and run `npm install` or `yarn add` to install the dependencies.
+3. run `npm run dev` or `yarn dev`
