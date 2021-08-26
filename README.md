@@ -8,7 +8,7 @@ Clone and deploy this site in one click:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/siddharthroy12/nextjs-blog-tutorial)
 
-Learn how to built this from this [tutorial]().
+Learn how to built this from this [tutorial](https://siddharthroy.netlify.app/blog/build-a-free-blog-with-next-js-and-netlify-cms).
 
 ## Running it locally
 

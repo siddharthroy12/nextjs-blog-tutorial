@@ -1,16 +1,23 @@
 import fs from 'fs'
 import ReactMarkdown from 'react-markdown'
 import matter from 'gray-matter'
+import Head from 'next/head'
+import styles from '../../styles/Blog.module.css'
 
 export default function Blog({ frontmatter, markdown}) {
 	return (
-		<div>
-			<h1>{frontmatter.title}</h1>
+		<div className={styles['container']}>
+			<Head>
+      	<title>Demo Blog | {frontmatter.title}</title>
+    	</Head>
+			<h1 className={styles['title']}>{frontmatter.title}</h1>
 			<span>{frontmatter.date}</span>
 			<hr />
-			<ReactMarkdown>
-				{markdown}
-			</ReactMarkdown>
+			<div className={styles['wrapper']}>
+				<ReactMarkdown>
+					{markdown}
+				</ReactMarkdown>
+			</div>
 		</div>
 	)
 }
